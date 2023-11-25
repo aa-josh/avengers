@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <script src="jquery-main/jquery.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">Logo</div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="menu-toggle">
+        <i class="fa fa-bars"></i>
+      </div>
+    </header>
+
+    <!-- home start -->
+    <div class="section">
+      <div class="home" id="home">
+        <div class="container">
+          <div class="row0">
+            <div class="row1">
+              <div class="main">
+                <h1>The Avengers</h1>
+                <ul class="cards">
+                  <li class="cards_item">
+                    <div class="card">
+                      <div class="card_image">
+                        <img src="img/capt.jpg" />
+                      </div>
+                      <div class="card_content">
+                        <h2 class="card_title">Captain Amerika</h2>
+                        <p class="card_text">
+                          Steve Roger atau lebih dikenal dengan nama Captain
+                          Amerika
+                        </p>
+                        <button class="btn card_btn">
+                          <a href="captain.html">Read More</a>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="cards_item">
+                    <div class="card">
+                      <div class="card_image">
+                        <img src="img/ironman.jpg" />
+                      </div>
+                      <div class="card_content">
+                        <h2 class="card_title">Iron Man</h2>
+                        <p class="card_text">
+                          Tony Stark seorang milyader dan mempunyai pabrik
+                          senjata
+                        </p>
+                        <button class="btn card_btn">
+                          <a href="#">Read More</a>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="cards_item">
+                    <div class="card">
+                      <div class="card_image">
+                        <img src="img/Thor.jpg" />
+                      </div>
+                      <div class="card_content">
+                        <h2 class="card_title">Thor</h2>
+                        <p class="card_text">
+                          Putra mahkota Asgard mempunyai kekuatan dewa petir
+                        </p>
+                        <button class="btn card_btn">
+                          <a href="#">Read More</a>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="cards_item">
+                    <div class="card">
+                      <div class="card_image">
+                        <img src="img/hulk.jpeg" />
+                      </div>
+                      <div class="card_content">
+                        <h2 class="card_title">Hulk</h2>
+                        <p class="card_text">
+                          Dr. Bruce Banner seorang ilmuan yang terkena radiasi
+                          gamma, bisa berubah menjadi raksasa hijau
+                        </p>
+                        <button class="btn card_btn">
+                          <a href="#">Read More</a>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="cards_item">
+                    <div class="card">
+                      <div class="card_image">
+                        <img src="img/widow.jpg" />
+                      </div>
+                      <div class="card_content">
+                        <h2 class="card_title">Black Widow</h2>
+                        <p class="card_text">
+                          Natasha Romanov agen khusus berkemampuan super, satu
+                          satunya anggota Avenger perempuan
+                        </p>
+                        <button class="btn card_btn">
+                          <a href="#">Read More</a>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="cards_item">
+                    <div class="card">
+                      <div class="card_image">
+                        <img src="img/hawkeye.jpg" />
+                      </div>
+                      <div class="card_content">
+                        <h2 class="card_title">Hawk Eye</h2>
+                        <p class="card_text">
+                          Dengan kemampuan memanah yang tepat sasaran,
+                          menjadikan Clinton Francis Barton yang lebih dikenal
+                          dengan nama Hawk Eye menjadikan satu satunya anggota
+                          Avenger berkekuatan murni
+                        </p>
+                        <button class="btn card_btn">
+                          <a href="#">Read More</a>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row2">
+              <div class="col-md-12 text-center">
+                <h3 class="animate-charcter">Ingin Jadi Member ?</h3>
+                <br />
+                <p class="animate-charcter">Daftar Disini</p>
+              </div>
+
+              <form
+                class="my-form"
+                id="my-form"
+                method="POST"
+                action="https://script.google.com/macros/s/AKfycbzgk2-qSPB1M5uDB-4jkw1OV1I7rijulBqkiLhsTlt6Xo42h1s-PRp9CgmOx3Y_MG9U/exec"
+              >
+                <label for="firstname" text-white>Nama Depan:</label><br />
+                <input
+                  type="text"
+                  id="firstname"
+                  name="firstname"
+                  value=""
+                /><br /><br />
+                <label for="lastname">Nama Belakang:</label><br />
+                <input
+                  type="text"
+                  id="lastname"
+                  name="lastname"
+                  value=""
+                /><br /><br />
+                <label for="email">Email:</label><br />
+                <input
+                  type="text"
+                  id="email"
+                  name="email"
+                  value=""
+                /><br /><br />
+                <label for="phone">No. Telp:</label><br />
+                <input
+                  type="text"
+                  id="phone"
+                  name="phone"
+                  value=""
+                /><br /><br />
+                <label for="company">Nama Perusahaan:</label><br />
+                <input
+                  type="text"
+                  id="company"
+                  name="company"
+                  value=""
+                /><br /><br />
+                <label for="check">Pernah Daftar Sebelumnya ?:</label><br />
+                <input
+                  type="text"
+                  id="check"
+                  name="check"
+                  value=""
+                /><br /><br />
+                <input type="submit" value="Submit" />
+                <input type="reset" value="Reset" />
+              </form>
+            </div>
+            <div class="row3">
+              <img src="img/logo.png" width="275px" alt="" />
+              <h2>The Avenger</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- home end -->
+
+    <script>
+      $(document).ready(function () {
+        $(".menu-toggle").click(function () {
+          $("nav").toggleClass("active");
+        });
+      });
+    </script>
+
+    <script>
+      window.addEventListener("load", function () {
+        const form = document.getElementById("my-form");
+        form.addEventListener("submit", function (e) {
+          e.preventDefault();
+          const data = new FormData(form);
+          const action = e.target.action;
+          fetch(action, {
+            method: "POST",
+            body: data,
+          }).then(() => {
+            alert("Data Berhasil Dikirim!");
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
